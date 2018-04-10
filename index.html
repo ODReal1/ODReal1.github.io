@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CV - Test</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link rel="icon" type="image/png" href="img/photo-pp.jpg" />
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+<script src="script/Maxime_JS.js"></script>
+<script>
+	AOS.init();
+</script>
+<header>
+	<nav data-aos="fade-down" data-aos-delay="200">
+		<ul>
+			<li><button>Compétences</button></li>
+			<li>|</li>
+			<li><button href="">Expériences</button></li>
+			<li>|</li>
+			<li><button href="">English</button></li>
+		</ul>
+		<ul id="list-brand">
+			<li><i class="fas fa-envelope"></i></li>
+			<li><i class="fab fa-linkedin"></i></li>
+			<li><i class="fab fa-github"></i></li>
+		</ul>
+	</nav>
+	<div id="img-pp">
+	</div>
+	<h1>
+		Maxime Bertin
+	</h1>
+	<button id="scroll" onclick="Maxime_ScrollTo();">
+		<i class="material-icons">expand_more</i>
+	</button>
+</header>
+<main>
+	<section>
+		<article>
+			<h2>Qui suis-je ?</h2>
+			<p class="p-left" data-aos="fade-right" data-aos-once="false">
+				Actuellement étudiant à l’école européenne des métiers de l’internet et intéressé par les métiers du développement, je suis curieux, motivé et passionné par les nouvelles technologies. <br/>J’aime expérimenter de nouveaux langages pour accroitre mes connaissances et ainsi proposer un contenu toujours plus créatif.
+			</p>
+		</article>
+		<article>
+			<h2 id="skills">Mes compétences</h2>
+			<div id="competences-liste">
+				<div>
+					<h2 class="competences-titre">Développement</h2>
+					<div class="competences">
+						<h3>HTML5&nbsp;CSS</h3>
+						<div class="progressbar"><div class="progressbar-inside p80" data-aos="fade-right" data-aos-once="false"></div></div>
+					</div>
+					<div class="competences">
+						<h3>PHP&nbsp;MySQL</h3>
+						<div class="progressbar"><div class="progressbar-inside p60" data-aos="fade-right" data-aos-once="false"></div></div>
+					</div>
+					<div class="competences">
+						<h3>Javascript</h3>
+						<div class="progressbar"><div class="progressbar-inside p60" data-aos="fade-right" data-aos-once="false"></div></div>
+					</div>
+					<div class="competences">
+						<h3>React&nbsp;Native</h3>
+						<div class="progressbar"><div class="progressbar-inside p10" data-aos="fade-right" data-aos-once="false"></div></div>
+					</div>
+				</div>
+				<div>
+					<h2 class="competences-titre">Design</h2>
+					<div class="competences">
+						<h3>Photoshop</h3>
+						<div class="progressbar"><div class="progressbar-inside p60" data-aos="fade-right" data-aos-once="false"></div></div>
+					</div>
+					<div class="competences">
+						<h3>Indesign</h3>
+						<div class="progressbar"><div class="progressbar-inside p50" data-aos="fade-right" data-aos-once="false"></div></div>
+					</div>
+					<div class="competences">
+						<h3>Illustrator</h3>
+						<div class="progressbar"><div class="progressbar-inside p50" data-aos="fade-right" data-aos-once="false"></div></div>
+					</div>
+					<div class="competences">
+						<h3>Figma</h3>
+						<div class="progressbar"><div class="progressbar-inside p80" data-aos="fade-right" data-aos-once="false"></div></div>
+					</div>
+				</div>
+				<div>
+					<h2 class="competences-titre">Mais aussi...</h2>
+					<div class="competences">
+						<h3>Office</h3>
+						<div class="progressbar"><div class="progressbar-inside p85" data-aos="fade-right" data-aos-once="false"></div></div>
+					</div>
+					<div class="competences">
+						<h3>Curiosité</h3>
+						<div class="progressbar"><div class="progressbar-inside p95" data-aos="fade-right" data-aos-once="false"></div></div>
+					</div>
+					<div class="competences">
+						<h3>Veille</h3>
+						<div class="progressbar"><div class="progressbar-inside p90" data-aos="fade-right" data-aos-once="false"></div></div>
+					</div>
+					<div class="competences">
+						<h3>Référencement</h3>
+						<div class="progressbar"><div class="progressbar-inside p60" data-aos="fade-right" data-aos-once="false"></div></div>
+					</div>
+				</div>
+			</div>
+			<div class="div-row">
+				<div class="lang-box" data-aos="fade-left" data-aos-once="false">
+					<h3>Français</h3>
+				</div>
+				<div class="lang-box" data-aos="fade-right" data-aos-once="false">
+					<h3>Anglais</h3>
+				</div>
+				<div class="lang-box" data-aos="fade-right" data-aos-once="false">
+					<h3>Allemand</h3>
+				</div>
+			</div>
+		</article>
+		<article id="experiences">
+			<h2>études & expériences</h2>
+			<div class="p-right" data-aos="fade-left" data-aos-once="false">
+				<h3>E.E.M.I.</h3>
+				<h4>Paris</h4>
+				<h5>2017-2018</h5>
+				<p>Ecole Européenne des Métiers de l'Internet</p>
+			</div>
+			<div class="p-left" data-aos="fade-right" data-aos-once="false">
+				<h3>Lycée J.H. Mansart</h3>
+				<h4>Saint-cyr-l'école</h4>
+				<h5>2014-2017</h5>
+				<p>Obtention du baccalauréat scientifique spécialité sciences de l'ingénieur mention assez bien</p>
+			</div>
+			<div class="p-right" data-aos="fade-left" data-aos-once="false">
+				<h3>InnoSmile</h3>
+				<h4>Paris</h4>
+				<h5>2018</h5>
+				<p>Projet de développement pour une société fictive de transports</p>
+			</div>
+			<div class="p-left" data-aos="fade-right" data-aos-once="false">
+				<h3>Cocowork</h3>
+				<h4>Paris</h4>
+				<h5>2018</h5>
+				<p>Projet de développement pour une société fictive de coworking</p>
+			</div>
+		</article>
+		<article>
+			<h2>En savoir plus ?</h2>
+			<div class="div-row">
+				<div class="more-box" data-aos="fade-left" data-aos-once="false">
+					<h3>CV&nbsp;-&nbsp;PDF</h3>
+				</div>
+				<div class="more-box" data-aos="fade-right" data-aos-once="false">
+					<h3>Portfolio</h3>
+				</div>
+			</div>
+		</article>
+		<br/>
+		<br/>
+	</section>
+</main>
+</body>
+</html>
